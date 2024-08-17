@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var promptSync = require("prompt-sync");
+var prompt = promptSync();
+var w3 = Number(prompt("Digite o 1° número: "));
+var x3 = Number(prompt("Digite o 2° número: "));
+var y3 = console.log("A soma entre ".concat(w3, " e ").concat(x3, " \u00E9: ").concat(w3 + x3));
+var z3 = console.log("A subtra\u00E7\u00E3o entre ".concat(w3, " e ").concat(x3, " \u00E9: ").concat(w3 - x3));
+var a3 = console.log("A multiplica\u00E7\u00E3o entre ".concat(w3, " e ").concat(x3, " \u00E9: ").concat(w3 * x3));
+var b3 = console.log("A divis\u00E3o entre ".concat(w3, " e ").concat(x3, " \u00E9: ").concat(w3 / x3));
